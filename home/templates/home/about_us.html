@@ -1,0 +1,41 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'home/about_us.css'%}">
+    <link rel="icon" type="image/x-icon" href="{% static 'user/favicon.ico' %}" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="Top-container">
+            <img id="th3" src="{% static 'user/favicon.ico' %}" alt="Logo" />
+            <span id="th1">TxtfyWeb</span>
+            <a href="{% url 'home'%}" id="homeicon">
+                <span class="material-icons" style="font-size: 69px;">home</span>
+            </a>
+    </div>
+    <div class="header-container">
+        <div class="header-text">Developer</div>
+    </div>
+    <div class="about">
+        <div class="name">Purna Chandra</div>
+        <div class="social-icons-container">
+            <a href="https://www.linkedin.com/in/purna-chandra-vennela-555284323/" target="_blank">
+                <i class="fa fa-linkedin-square" style="font-size:24px;color:#F9C80E; margin-right: 20px;"></i>
+            </a>
+            <a href="https://github.com/Purna-Chandra-4706" target="_blank">
+                <i class="fa fa-github" style="font-size:24px;color:#F9C80E; margin-right: 20px;"></i>
+            </a>
+            <a href="mailto:vennelapurnachandra2006@gmail.com">
+                <i class="fa fa-envelope" style="font-size:24px;color:#F9C80E;"></i>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
